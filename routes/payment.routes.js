@@ -1,6 +1,6 @@
 import express from "express";
 import stripe from "../config/stripe.js";
-import Payment from "../models/payment.js";
+import Payment from "../models/Payment.js";
 
 const router = express.Router();
 
