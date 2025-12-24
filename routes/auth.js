@@ -8,7 +8,7 @@ const router = express.Router();
 const user = {
   id: "123",
   email: "admin@example.com",
-  password: bcrypt.hashSync("123456", 10) // hashed password
+  password: bcrypt.hashSync("123456", 10) 
 };
 
 
