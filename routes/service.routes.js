@@ -3,9 +3,7 @@ import Service from "../models/Service.js";
 
 const router = express.Router();
 
-/* =====================
-   GET all services
-===================== */
+
 router.get("/", async (req, res) => {
   try {
     const services = await Service.find().sort({ createdAt: -1 });
