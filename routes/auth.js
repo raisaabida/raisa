@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 
 const router = express.Router();
 
-// Dummy user 
+
 const user = {
   id: "123",
   email: "admin@example.com",
